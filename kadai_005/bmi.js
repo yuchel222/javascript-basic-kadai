@@ -1,18 +1,6 @@
 // 変数の宣言
-let userName;
+let weight = 68;
+let height = 1.7;
+let bmi = weight / (height * height);
 
-//　値の代入
-userName = '体重';
-userNumber = 68;
-console.log(userName);
-console.log(userNumber);
-
-userName = '身長';
-userNumber = 1.7;
-console.log(userName);
-console.log(userNumber);
-
-userName = 'BMI';
-userNumber =(68 / (1.7 * 1.7) );
-console.log(userName);
-console.log(userNumber);
+console.log(bmi);
